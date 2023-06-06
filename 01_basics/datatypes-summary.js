@@ -8,7 +8,8 @@
         name = sami 
         age = 20
         sex = male
-        
+        console.log(name);
+        console.log(age);
       }
       console.log("myfunctions");
 
@@ -19,3 +20,11 @@
       console.log(typeof name);
 
       // read official documentation for better understanding 
+
+
+
+      //  +++++++++++++++++ Memory in JS +++++++++++++++
+
+      // there are two types of memory in js 
+      // heap and another one is stack memory
+      heap memory is used for 
