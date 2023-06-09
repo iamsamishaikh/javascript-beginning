@@ -34,7 +34,7 @@ console.log(JsUser["mySym"]);
 
 
 JsUser.email = "sami@google.com" // user to change email 
-Object.freeze(JsUser); // after using this we will not be able to change details of JsUser
+// Object.freeze(JsUser); // after using this we will not be able to change details of JsUser
 
 // for example =>
 JsUser.email = "sami@microsoft.com" // it will not reflect bcoz we have freeze the valuse of JsUser
