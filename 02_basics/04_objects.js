@@ -70,5 +70,13 @@ console.log(TinderUser.hasOwnProperty("isLoggedIn")); // its shows if any proper
 
 
 
+//             SOME ADDITIONAL ADVICE =>
+
+
+// Use node first ther write the location in terminal. otherwise it will not run and it show's a message saying "Permission denied"
+
+
+
+
 
 
