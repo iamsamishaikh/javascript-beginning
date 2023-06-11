@@ -63,9 +63,45 @@ const users = [
 // console.log(Object.values);
 // console.log(Object.entries);
 
-console.log(TinderUser.hasOwnProperty("isLoggedIn")); // its shows if any property is available in the program or not.
+// console.log(TinderUser.hasOwnProperty("isLoggedIn")); // its shows if any property is available in the program or not.
 // if its not it will say false, if yest then it says => true
 // checking hasownpropert is case sensitive. so check its capital and small letters
+
+
+const course = {
+    name: "AppBrewary",
+    price: "999",
+    courseInstructor: "Angela",
+    location: "Jaipur"
+
+}
+
+console.log(course.price);
+
+const {courseInstructor: Instructor} = course
+
+console.log(Instructor);
+
+
+{
+    "name": "Sami",
+    "coursename": "CodeWithSam",
+    "price": "3999",
+    instructor: "Sami Shaikh"
+
+}
+
+// above object is know as JSON file and used for API and many purposes
+
+[
+    {},
+    {},
+    {},
+]
+
+// above are used for API purposes and as a JSON File 
+
+
 
 
 
@@ -74,6 +110,10 @@ console.log(TinderUser.hasOwnProperty("isLoggedIn")); // its shows if any proper
 
 
 // Use node first ther write the location in terminal. otherwise it will not run and it show's a message saying "Permission denied"
+
+
+
+
 
 
 
